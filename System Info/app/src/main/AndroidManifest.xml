@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.systemupdate.androidupdate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.systemupdate.androidupdate.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.systemupdate.androidupdate.HistoryActivity" />
+        <activity android:name="com.systemupdate.androidupdate.CupcakeActivity" />
+        <activity android:name="com.systemupdate.androidupdate.DonutActivity" />
+        <activity android:name="com.systemupdate.androidupdate.EclarActivity" />
+        <activity android:name="com.systemupdate.androidupdate.FroyoActivity" />
+        <activity android:name="com.systemupdate.androidupdate.GingerActivity" />
+        <activity android:name="com.systemupdate.androidupdate.HoneyActivity" />
+        <activity android:name="com.systemupdate.androidupdate.IcecreamActivity" />
+        <activity android:name="com.systemupdate.androidupdate.JellyActivity" />
+        <activity android:name="com.systemupdate.androidupdate.KitkatActivity" />
+        <activity android:name="com.systemupdate.androidupdate.LolliActivity" />
+        <activity android:name="com.systemupdate.androidupdate.MarshActivity" />
+        <activity android:name="com.systemupdate.androidupdate.NougatActivity" />
+        <activity android:name="com.systemupdate.androidupdate.OreoActivity" />
+        <activity android:name="com.systemupdate.androidupdate.PieActivity" />
+        <activity android:name="com.systemupdate.androidupdate.MainActivity" />
+        <activity android:name="com.systemupdate.androidupdate.SystemActivity" />
+        <activity android:name="com.systemupdate.androidupdate.HomeActivity" />
+        <activity android:name="com.systemupdate.androidupdate.DeviceinfoActivity" />
+        <activity android:name="com.systemupdate.androidupdate.PrivacyActivity" />
+        <activity android:name="com.systemupdate.androidupdate.ExitActivity" />
+        <activity android:name="com.systemupdate.androidupdate.StartActivity"></activity>
+    </application>
+
+</manifest>
